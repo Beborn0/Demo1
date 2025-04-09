@@ -1,0 +1,1 @@
+stm32g031f8p6\startup_stm32g031xx.o: startup_stm32g031xx.s

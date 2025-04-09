@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 zx8680@outlook.com, 1, LIC=TIVNB-2L8J4-HLTCL-0DUQQ-NV0Y3-4Z1MR
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TARMCM1.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+D:\文件\STM32G031F8P6\STM32G031F8P6\MDK-ARM\STM32G031F8P6.uvprojx
+Project File Date:  04/01/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM32G031F8P6'
+compiling OLED_I2C.c...
+..\Core\oled\OLED_I2C.c(239): error:  #167: argument of type "uint8_t *" is incompatible with parameter of type "uint8_t"
+  			WriteDat(OLED_DisplayBuf[i]);//依次发送Data的每一个数据
+..\Core\oled\OLED_I2C.c(517): warning:  #177-D: variable "pIndex"  was declared but never referenced
+  	uint16_t pIndex;
+..\Core\oled\OLED_I2C.c: 1 warning, 1 error
+"STM32G031F8P6\STM32G031F8P6.axf" - 1 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32G0xx_DFP.1.5.0.pack
+                Keil.STM32G0xx_DFP.1.5.0
+                STMicroelectronics STM32G0 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_STM32G031F8P6
+  C:/Keil_v5/ARM/CMSIS/5.8.0/CMSIS/Core/Include
+  C:/Keil_v5/Keil/STM32G0xx_DFP/1.5.0/Drivers/CMSIS/Device/ST/STM32G0xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

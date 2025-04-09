@@ -1,0 +1,1234 @@
+Dependencies for Project 'STM32G031F8P6', Target 'STM32G031F8P6': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (startup_stm32g031xx.s)(0x67EB71D0)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "STM32G031xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32g031xx.lst --xref -o stm32g031f8p6\startup_stm32g031xx.o --depend stm32g031f8p6\startup_stm32g031xx.d)
+F (..\Core\mbutton\multi_button.c)(0x67E4AD86)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\multi_button.o --omf_browse stm32g031f8p6\multi_button.crf --depend stm32g031f8p6\multi_button.d)
+I (..\Core\mbutton\multi_button.h)(0x67E4AD86)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+F (..\Core\oled\ctiic.c)(0x67E95E6C)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\ctiic.o --omf_browse stm32g031f8p6\ctiic.crf --depend stm32g031f8p6\ctiic.d)
+I (..\Core\oled\ctiic.h)(0x67E95F32)
+I (../Core/Inc/main.h)(0x67E4B407)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+I (../Core/Inc/tim.h)(0x67E4B5E3)
+F (..\Core\oled\OLED_I2C.c)(0x67EB7D2E)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\oled_i2c.o --omf_browse stm32g031f8p6\oled_i2c.crf --depend stm32g031f8p6\oled_i2c.d)
+I (..\Core\oled\ctiic.h)(0x67E95F32)
+I (../Core/Inc/main.h)(0x67E4B407)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+I (../Core/Inc/tim.h)(0x67E4B5E3)
+I (..\Core\oled\OLED_I2C.h)(0x67EB78FA)
+I (..\Core\oled\codetab.h)(0x67EB7766)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x60252378)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x60252376)
+F (..\Core\oled\menu.c)(0x67EB7766)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\menu.o --omf_browse stm32g031f8p6\menu.crf --depend stm32g031f8p6\menu.d)
+I (..\Core\oled\menu.h)(0x67EB7766)
+I (../Core/Inc/main.h)(0x67E4B407)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+I (..\Core\oled\OLED_I2C.h)(0x67EB78FA)
+F (../Core/Src/main.c)(0x67EB7BF9)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\main.o --omf_browse stm32g031f8p6\main.crf --depend stm32g031f8p6\main.d)
+I (../Core/Inc/main.h)(0x67E4B407)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+I (../Core/Inc/adc.h)(0x67E4B405)
+I (../Core/Inc/rtc.h)(0x67E4AD85)
+I (../Core/Inc/tim.h)(0x67E4B5E3)
+I (../Core/Inc/gpio.h)(0x67E4AD85)
+I (../Core/mbutton/multi_button.h)(0x67E4AD86)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (../Core/oled/OLED_I2C.h)(0x67EB78FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+F (../Core/Src/gpio.c)(0x67E4AD86)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\gpio.o --omf_browse stm32g031f8p6\gpio.crf --depend stm32g031f8p6\gpio.d)
+I (../Core/Inc/gpio.h)(0x67E4AD85)
+I (../Core/Inc/main.h)(0x67E4B407)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+F (../Core/Src/adc.c)(0x67E96811)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\adc.o --omf_browse stm32g031f8p6\adc.crf --depend stm32g031f8p6\adc.d)
+I (../Core/Inc/adc.h)(0x67E4B405)
+I (../Core/Inc/main.h)(0x67E4B407)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+F (../Core/Src/rtc.c)(0x67E4D023)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\rtc.o --omf_browse stm32g031f8p6\rtc.crf --depend stm32g031f8p6\rtc.d)
+I (../Core/Inc/rtc.h)(0x67E4AD85)
+I (../Core/Inc/main.h)(0x67E4B407)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+F (../Core/Src/tim.c)(0x67E4AD86)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\tim.o --omf_browse stm32g031f8p6\tim.crf --depend stm32g031f8p6\tim.d)
+I (../Core/Inc/tim.h)(0x67E4B5E3)
+I (../Core/Inc/main.h)(0x67E4B407)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+F (../Core/Src/stm32g0xx_it.c)(0x67E95AE4)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_it.o --omf_browse stm32g031f8p6\stm32g0xx_it.crf --depend stm32g031f8p6\stm32g0xx_it.d)
+I (../Core/Inc/main.h)(0x67E4B407)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_it.h)(0x67E4D583)
+F (../Core/Src/stm32g0xx_hal_msp.c)(0x67E4B406)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_msp.o --omf_browse stm32g031f8p6\stm32g0xx_hal_msp.crf --depend stm32g031f8p6\stm32g0xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x67E4B407)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+F (../Core/Src/system_stm32g0xx.c)(0x67E4AD86)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\system_stm32g0xx.o --omf_browse stm32g031f8p6\system_stm32g0xx.crf --depend stm32g031f8p6\system_stm32g0xx.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_utils.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_ll_utils.o --omf_browse stm32g031f8p6\stm32g0xx_ll_utils.crf --depend stm32g031f8p6\stm32g0xx_ll_utils.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_utils.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_system.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_pwr.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_exti.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_ll_exti.o --omf_browse stm32g031f8p6\stm32g0xx_ll_exti.crf --depend stm32g031f8p6\stm32g0xx_ll_exti.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_gpio.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_ll_gpio.o --omf_browse stm32g031f8p6\stm32g0xx_ll_gpio.crf --depend stm32g031f8p6\stm32g0xx_ll_gpio.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_adc.o --omf_browse stm32g031f8p6\stm32g0xx_hal_adc.crf --depend stm32g031f8p6\stm32g0xx_hal_adc.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_adc_ex.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_adc_ex.o --omf_browse stm32g031f8p6\stm32g0xx_hal_adc_ex.crf --depend stm32g031f8p6\stm32g0xx_hal_adc_ex.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_adc.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_ll_adc.o --omf_browse stm32g031f8p6\stm32g0xx_ll_adc.crf --depend stm32g031f8p6\stm32g0xx_ll_adc.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_ll_rcc.o --omf_browse stm32g031f8p6\stm32g0xx_ll_rcc.crf --depend stm32g031f8p6\stm32g0xx_ll_rcc.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_rcc.o --omf_browse stm32g031f8p6\stm32g0xx_hal_rcc.crf --depend stm32g031f8p6\stm32g0xx_hal_rcc.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_rcc_ex.o --omf_browse stm32g031f8p6\stm32g0xx_hal_rcc_ex.crf --depend stm32g031f8p6\stm32g0xx_hal_rcc_ex.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_flash.o --omf_browse stm32g031f8p6\stm32g0xx_hal_flash.crf --depend stm32g031f8p6\stm32g0xx_hal_flash.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_flash_ex.o --omf_browse stm32g031f8p6\stm32g0xx_hal_flash_ex.crf --depend stm32g031f8p6\stm32g0xx_hal_flash_ex.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_gpio.o --omf_browse stm32g031f8p6\stm32g0xx_hal_gpio.crf --depend stm32g031f8p6\stm32g0xx_hal_gpio.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_dma.o --omf_browse stm32g031f8p6\stm32g0xx_hal_dma.crf --depend stm32g031f8p6\stm32g0xx_hal_dma.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_dma_ex.o --omf_browse stm32g031f8p6\stm32g0xx_hal_dma_ex.crf --depend stm32g031f8p6\stm32g0xx_hal_dma_ex.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_pwr.o --omf_browse stm32g031f8p6\stm32g0xx_hal_pwr.crf --depend stm32g031f8p6\stm32g0xx_hal_pwr.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_pwr_ex.o --omf_browse stm32g031f8p6\stm32g0xx_hal_pwr_ex.crf --depend stm32g031f8p6\stm32g0xx_hal_pwr_ex.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_cortex.o --omf_browse stm32g031f8p6\stm32g0xx_hal_cortex.crf --depend stm32g031f8p6\stm32g0xx_hal_cortex.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal.o --omf_browse stm32g031f8p6\stm32g0xx_hal.crf --depend stm32g031f8p6\stm32g0xx_hal.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_hal_exti.o --omf_browse stm32g031f8p6\stm32g0xx_hal_exti.crf --depend stm32g031f8p6\stm32g0xx_hal_exti.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rtc.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_ll_rtc.o --omf_browse stm32g031f8p6\stm32g0xx_ll_rtc.crf --depend stm32g031f8p6\stm32g0xx_ll_rtc.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rtc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_cortex.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_tim.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_ll_tim.o --omf_browse stm32g031f8p6\stm32g0xx_ll_tim.crf --depend stm32g031f8p6\stm32g0xx_ll_tim.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_tim.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
+F (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c)(0x67C27C2F)(--c99 -c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Core/mbutton -I ../Core/Src -I ../Core/oled -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include -I D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy-I.\RTE\_STM32G031F8P6-IC:\Keil_v5\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\STM32G0xx_DFP\1.5.0\Drivers\CMSIS\Device\ST\STM32G0xx\Include-D__UVISION_VERSION="538" -D_RTE_ -DSTM32G031xx -D_RTE_ -DUSE_FULL_LL_DRIVER -DSTM32G031xx -DUSE_HAL_DRIVER-o stm32g031f8p6\stm32g0xx_ll_dma.o --omf_browse stm32g031f8p6\stm32g0xx_ll_dma.crf --depend stm32g031f8p6\stm32g0xx_ll_dma.d)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/stm32g031xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/core_cm0plus.h)(0x67C27BFF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_version.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_compiler.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/cmsis_armcc.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Include/mpu_armv7.h)(0x67C27BFF)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/CMSIS/Device/ST/STM32G0xx/Include/system_stm32g0xx.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal.h)(0x67C27C2F)
+I (../Core/Inc/stm32g0xx_hal_conf.h)(0x67E4B406)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_def.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x67C27C2F)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_rcc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_rcc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_gpio_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_dma_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_dmamux.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_cortex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_adc.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_adc_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_exti.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_flash_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_hal_pwr_ex.h)(0x67C27C2F)
+I (D:/STM32Cube/STM32Cube_FW_G0_V1.6.2/Drivers/STM32G0xx_HAL_Driver/Inc/stm32g0xx_ll_bus.h)(0x67C27C2F)
